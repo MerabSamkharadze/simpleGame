@@ -18,7 +18,7 @@ function main(currentTime) {
     document.querySelector(".score1").textContent = 0;
 
     if (confirm("ვუფს... დარჩი მშიერი 🥺 ")) {
-      location.reload();
+      window.location.reload();
     }
     return;
   }
