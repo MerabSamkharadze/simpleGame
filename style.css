@@ -1,0 +1,58 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #2fcfcf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.game-board {
+  display: grid;
+  background-color: antiquewhite;
+  width: 80vmin;
+  height: 80vmin;
+  grid-template-columns: repeat(21, 1fr);
+  grid-template-rows: repeat(21, 1fr);
+}
+.score {
+  color: rgb(84, 19, 149);
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  width: 20%;
+  height: 10%;
+  right: 40px;
+  background-color: rgb(239, 154, 154);
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.score span {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: rgb(243, 86, 154);
+  font-size: 20px;
+}
+.snake {
+  /*M ასოს ფოტოა ეს*/
+  /* background-image: url(https://cdn.iconscout.com/icon/premium/png-512-thumb/alphabet-letter-m-1-738681.png); */
+  background-size: 32px;
+  background-image: url(https://www.pngpix.com/wp-content/uploads/2016/10/PNGPIX-COM-Mouth-PNG-Transparent-Image.png);
+  background-position: center;
+  background-size: cover;
+}
+.food {
+  /* გულის ფოტოა ეს*/
+  /* background-image: url(https://i1.wp.com/www.vectorico.com/wp-content/uploads/2019/01/heart-icon.png); */
+
+  background-image: url(https://cdn2.iconfinder.com/data/icons/bakery-products/100/1-30-512.png);
+  background-position: center;
+  background-size: 31px;
+  background-size: cover;
+}
