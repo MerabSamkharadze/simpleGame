@@ -10,12 +10,15 @@ body {
   position: relative;
 }
 .game-board {
+
   display: grid;
   background-color: antiquewhite;
   width: 80vmin;
   height: 80vmin;
   grid-template-columns: repeat(21, 1fr);
   grid-template-rows: repeat(21, 1fr);
+  radius:4px solid #37E2D5;
+  top:5px;
 }
 .score {
   color: rgb(84, 19, 149);
